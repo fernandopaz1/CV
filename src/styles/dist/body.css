@@ -1,7 +1,6 @@
 html {
   font-size: 100%;
   line-height: 24px;
-  background-color: #5cc9c9;
 }
 
 @media (min-width: 48rem) {
@@ -19,14 +18,4 @@ html {
 body {
   display: flex;
   flex-direction: row;
-  padding: 0rem;
-}
-
-main {
-  width: 500rem;
-  background-color: #d0e7ca;
-}
-
-aside#sideMenu {
-  background-color: aquamarine;
 }

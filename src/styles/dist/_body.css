@@ -21,12 +21,3 @@ body {
   flex-direction: row;
   padding: 0rem;
 }
-
-main {
-  width: 500rem;
-  background-color: #d0e7ca;
-}
-
-aside#sideMenu {
-  background-color: aquamarine;
-}
