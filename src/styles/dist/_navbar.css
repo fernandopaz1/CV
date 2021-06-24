@@ -1,0 +1,18 @@
+nav {
+  display: inline;
+  background-color: #9994c4;
+  width: fit-container;
+  height: 2rem;
+  align: center;
+}
+
+#link_menu {
+  text-decoration: none;
+  background-color: rgba(255, 30, 30, 0.5);
+}
+
+#link_menu:hover, a:hover {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}

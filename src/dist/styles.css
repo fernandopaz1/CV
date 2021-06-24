@@ -1,0 +1,51 @@
+html {
+  font-size: 100%;
+  line-height: 24px;
+  background-color: #5cc9c9;
+}
+
+@media (min-width: 48rem) {
+  html {
+    font-size: 112.5%;
+    line-height: 27px;
+  }
+}
+@media (min-width: 75.0625rem) {
+  html {
+    font-size: 137.5%;
+    line-height: 33px;
+  }
+}
+body {
+  display: flex;
+  flex-direction: row;
+  padding-top: 3rem;
+}
+
+main {
+  width: 400rem;
+  background-color: #d0e7ca;
+}
+
+nav {
+  display: inline;
+  background-color: #9994c4;
+  width: fit-container;
+  height: 2rem;
+  align: center;
+}
+
+#link_menu {
+  text-decoration: none;
+  background-color: rgba(255, 30, 30, 0.5);
+}
+
+#link_menu:hover, a:hover {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+aside#sideMenu {
+  background-color: aquamarine;
+}
