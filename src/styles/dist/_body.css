@@ -1,7 +1,9 @@
 html {
   font-size: 100%;
+  height: 100%;
   line-height: 24px;
   background-color: #5cc9c9;
+  scroll-behavior: smooth;
 }
 
 @media (min-width: 48rem) {
@@ -19,5 +21,5 @@ html {
 body {
   display: flex;
   flex-direction: row;
-  padding-top: 3rem;
+  padding-top: 5rem;
 }
