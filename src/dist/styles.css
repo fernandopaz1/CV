@@ -19,12 +19,31 @@ html {
 body {
   display: flex;
   flex-direction: row;
-  padding: 0rem;
+  padding-top: 3rem;
 }
 
 main {
-  width: 500rem;
+  width: 400rem;
   background-color: #d0e7ca;
+}
+
+nav {
+  display: inline;
+  background-color: #9994c4;
+  width: fit-container;
+  height: 2rem;
+  align: center;
+}
+
+#link_menu {
+  text-decoration: none;
+  background-color: rgba(255, 30, 30, 0.5);
+}
+
+#link_menu:hover, a:hover {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 aside#sideMenu {

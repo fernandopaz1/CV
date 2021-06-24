@@ -19,5 +19,5 @@ html {
 body {
   display: flex;
   flex-direction: row;
-  padding: 0rem;
+  padding-top: 3rem;
 }
