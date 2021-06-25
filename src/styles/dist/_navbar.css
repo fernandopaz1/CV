@@ -3,7 +3,7 @@ nav {
   background-color: #9994c4;
   width: fit-container;
   height: 2rem;
-  align: center;
+  vertical-align: center;
 }
 
 #link_menu {
