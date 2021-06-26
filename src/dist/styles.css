@@ -65,6 +65,10 @@ nav {
 .seccion {
   height: 100vh;
   scroll-behavior: smooth;
+  width: 50rem;
+  padding: 2rem;
+  background-color: rgba(85, 179, 48, 0.1);
+  border-radius: 1rem;
 }
 
 aside#sideMenu {
