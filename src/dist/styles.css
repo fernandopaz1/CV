@@ -41,6 +41,10 @@ body {
 main {
   width: 400rem;
   background-color: #d0e7ca;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 nav {
@@ -74,6 +78,17 @@ nav {
 
 aside#sideMenu {
   background-color: aquamarine;
+}
+
+#listAside {
+  list-style-type: none;
+  background-color: rgba(255, 100, 255, 0.3);
+  border-radius: 0.3rem;
+}
+
+.itemAside {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 iframe {

@@ -1,3 +1,14 @@
 aside#sideMenu {
   background-color: aquamarine;
 }
+
+#listAside {
+  list-style-type: none;
+  background-color: rgba(255, 100, 255, 0.3);
+  border-radius: 0.3rem;
+}
+
+.itemAside {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
