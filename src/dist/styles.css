@@ -34,7 +34,7 @@ html {
 }
 body {
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   padding-top: 5rem;
 }
 
@@ -67,7 +67,6 @@ nav {
 }
 
 .seccion {
-  height: 100vh;
   scroll-behavior: smooth;
   width: 40rem;
   padding: 2rem;
@@ -100,4 +99,18 @@ iframe {
   -moz-box-shadow: 4px 4px 14px #000;
   -webkit-box-shadow: 4px 4px 14px #000;
   box-shadow: 4px 4px 14px #000;
+}
+.progreso {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 90%;
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+}
+
+progress {
+  height: 1rem;
+  width: 70%;
 }

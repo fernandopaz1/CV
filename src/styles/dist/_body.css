@@ -20,6 +20,6 @@ html {
 }
 body {
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   padding-top: 5rem;
 }
